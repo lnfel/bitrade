@@ -1,3 +1,101 @@
-<div class="jumbotron">
-	<h1 class="display-4"><i class="fas fa-home"></i> Bootstrap 4.4.1 and Fontawesome 5.12</h1>
+<!-- slidereveal -->
+<div id="slider" class="bg-light p-3">
+	<div class="input-group mb-3">
+		<input type="search" name="" class="form-control" placeholder="What are you looking for?">
+		<div class="input-group-append">
+	    <button class="btn btn-outline-success" type="button" id="button-addon2">Search</button>
+	  </div>
+	</div>
+	<ul class="nav flex-column">
+		<li class="nav-item">
+	    <a class="nav-link active" href="#">Active</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="#">Link</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="#">Link</a>
+	  </li>
+	</ul>
 </div>
+<!-- slidereveal end -->
+
+<!-- container -->
+<div class="container-fluid px-0">
+	<header class="fixed-top">
+		<div class="logo pt-4 px-4 d-flex justify-content-between justify-content-lg-center align-items-center">
+			<a href="#" class="navbar-brand flip" style="transition: -webkit-transform 0.5s cubic-bezier(0.54, 0.01, 0.57, 1.03) 0s; transform: translateX(0px);">
+				<%= image_tag('logo', width: '80px', class: '') %>
+			</a>
+		  <!-- <button id="trigger" class="btn btn-success d-lg-none" style="height: fit-content;">
+		  	<i class="fas fa-chevron-left"></i>
+		  </button> -->
+		  <div id="nav-icon2" class="flip d-lg-none" style="transition: -webkit-transform 0.5s cubic-bezier(0.54, 0.01, 0.57, 1.03) 0s; transform: translateX(0px);">
+		    <span></span>
+		    <span></span>
+		    <span></span>
+		    <span></span>
+		    <span></span>
+		    <span></span>
+		  </div>
+			<!-- <div class="row justify-content-center">
+				<ul class="nav">
+					<li class="nav-item">
+						<a class="nav-link font-weight-bolder text-uppercase text-light" style="text-shadow: 0 0 9.5px rgba(0, 0, 0, 0.58);" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link font-weight-bolder text-uppercase text-light" style="text-shadow: 0 0 9.5px rgba(0, 0, 0, 0.58);" href="#">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link font-weight-bolder text-uppercase text-dark" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link font-weight-bolder text-uppercase text-dark" href="#">About</a>
+					</li>
+				</ul>
+			</div> -->
+		</div>
+
+		<nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="background-color: rgba(0, 0, 0, 0.25);">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse text-uppercase font-weight-bold" id="navbarNav">
+		    <ul class="navbar-nav mx-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Features</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Pricing</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</header>
+	<section class="intro vh-100 d-flex align-items-center justify-content-center">
+		<!-- <div class="card border-0 bg-dark text-white vh-100 text-dark"> -->
+			<%#= image_tag('chicken', class: 'img-fluid', style: 'width: 100vw;') %>
+			<div class="">
+				<div class="pb-4 mb-4 text-center">
+					<h1 class="display-1 card-title font-weight-bold mb-4 text-light" style="text-shadow: 0 0 9.5px rgba(0, 0, 0, 0.58);">Technology for Agriculture</h1>
+					<i class="fas fa-chevron-down text-success" style="font-size: 6rem; text-shadow: 0 0 9.5px rgba(0, 0, 0, 0.58);"></i>
+				</div>
+		  </div>
+		<!-- </div> -->
+	</section>
+
+	<section class="vh-100" style="padding-top: 175px;">
+		
+	</section>
+
+	<footer>
+		
+	</footer>
+</div>
+<!-- container end -->

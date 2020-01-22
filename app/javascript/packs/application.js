@@ -13,6 +13,7 @@ import "bootstrap";
 import "../stylesheets/application";
 
 // javascripts
+import "./jquery.slidereveal.min"
 import "./custom";
 
 
